@@ -7,7 +7,7 @@ from langchain.callbacks import StreamlitCallbackHandler
 from langchain_openai import ChatOpenAI
 
 AUDIO_FILE = Path("microphone-results.wav")
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "your-key-here"
 
 def record_audio(file_path):
     """Records audio to the specified file path and returns whether the recording was successfull"""
